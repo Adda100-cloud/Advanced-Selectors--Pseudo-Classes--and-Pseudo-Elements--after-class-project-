@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #16c639;
+    color: #000000;
+}
+
+h1 {
+    color: #15545d;
+}
+
+a {
+    color: #133f71;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e4eb1f;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color: #d62424;
+}
+
+ul li:nth-child(3) {
+    background-color: #16c639;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "⚽";
+}
+
+a::after {
+    content: "🏃‍♂️"
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #ffffff;
+}
